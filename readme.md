@@ -1,6 +1,6 @@
 This is a library to allow HTML Email Template designers to code email templates with PHP.
 
-You can define the structure of the table, along with the contents and attributes of its cells.  Then you can embed the table within a cell of an outer table by passing
+You can define the structure of a table, along with the contents and attributes of its cells.  Then you can embed the table within a cell of an outer table by passing
 $innerTable->generateTags()
 as the content of the containing cell.  This allows your indenting to remain modest.  Table objects also accept an $indent parameter, which will make for better looking output.
 
